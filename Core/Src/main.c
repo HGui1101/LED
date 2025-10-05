@@ -98,7 +98,7 @@ HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    HAL_Delay(50);
+    HAL_Delay(100);
     if(compareValue<MIN_L||compareValue>MAX_L){
       change*=-1;}
     compareValue+=change;
