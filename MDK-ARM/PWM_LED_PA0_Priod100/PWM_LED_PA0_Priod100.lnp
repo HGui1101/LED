@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"pwm_led_pa0_priod100\startup_stm32f103xb.o"
+"pwm_led_pa0_priod100\main.o"
+"pwm_led_pa0_priod100\stm32f1xx_it.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal_msp.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal_gpio_ex.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal_tim.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal_tim_ex.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal_rcc.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal_rcc_ex.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal_gpio.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal_dma.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal_cortex.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal_pwr.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal_flash.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal_flash_ex.o"
+"pwm_led_pa0_priod100\stm32f1xx_hal_exti.o"
+"pwm_led_pa0_priod100\system_stm32f1xx.o"
+--strict --scatter "PWM_LED_PA0_Priod100\PWM_LED_PA0_Priod100.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PWM_LED_PA0_Priod100.map" -o PWM_LED_PA0_Priod100\PWM_LED_PA0_Priod100.axf

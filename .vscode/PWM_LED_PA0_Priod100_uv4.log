@@ -1,0 +1,11 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Program\STM32\ARM\ARMCC\Bin'
+Build target 'PWM_LED_PA0_Priod100'
+compiling main.c...
+../Core/Src/main.c(220): error:  #20: identifier "FILE" is undefined
+  int fputc(int c,FILE*f)
+../Core/Src/main.c(223): warning:  #940-D: missing return statement at end of non-void function "fputc" 
+  }
+../Core/Src/main.c: 1 warning, 1 error
+"PWM_LED_PA0_Priod100\PWM_LED_PA0_Priod100.axf" - 1 Error(s), 1 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01
